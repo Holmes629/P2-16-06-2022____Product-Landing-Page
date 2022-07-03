@@ -1,0 +1,181 @@
+body {
+    display: block;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*######## Header #########*/
+
+.Header {
+    display: block;
+}
+.Header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Header ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.Header ul li {
+    float:right;   
+}
+.Header ul li.Original_Trombones,
+.Header ul li.Trigram {
+    font-size: 26px;
+    float: left;
+}
+
+/*######## Section-1 #########*/
+
+.Section-1 {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+}
+.Section-1 h1 {
+    padding-top: 20px;
+}
+.Section-1 input {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+.Section-1 button  {
+    font-size: 15px;
+    padding: 7px 100px;
+    background-color: #E9FC2E;
+}
+
+/*######## Section-2 #########*/
+
+.Section-2 {
+    padding: 3% 15%;
+    display: block;
+}
+.Section-2 table tr td i {
+    color: #D4864C;
+}
+
+/*######## Section-3 #########*/
+
+.Section-3 {
+    display: block;
+    padding: 2% 30%;
+}
+.Section-3 iframe {
+    height: 300px;
+    width: 600px;
+}
+
+/*######## Section-4 #########*/
+
+.col-2 {
+    width:20%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Section-4 {
+    display: block;
+}
+.Section-4 .row {
+    padding: 3% 0;
+    padding-left: 20%;
+}
+.Section-4 .row .col-2 {
+    display: block;
+    margin: 1px;
+    border: 3px solid;
+    border-color: #000000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.Section-4 .row .col-2 h3 {
+    margin: 0;
+    padding: 20px 30px;
+    background-color: #DAD7D5;
+}
+.Section-4 .row .col-2 p {
+    line-height: 5px;
+}
+.Section-4 .row .col-2 button {
+    font-size: 16px;
+    padding: 5px 25px;
+    background-color: #E9FC2E;
+}
+
+/*######## Footer #########*/
+
+.footer ul{
+    display: block;
+    background-color: #DAD7D5;
+    padding: 40px 0;
+    margin: 0;
+}
+.footer ul li {
+    padding: 0 30px;
+    list-style: none;
+    float: left;
+}
+.footer ul li.center {
+    padding-left: 20%;
+}
+.footer ul li.center a {
+    text-decoration: underline;
+    text-decoration-color: #6B99E4;
+}
+.footer ul li.right {
+    float: right;
+}
+
+/*######## Mobile #########*/
+
+@media screen and (max-width:700px){
+    .Section-1 h1 {
+        line-height: 30px; ;
+        padding-top: 40px;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .Section-3 {
+        padding: 2% 5%;
+    }
+    .Section-3 iframe {
+        height: 200px;
+        width: 400px;
+        padding-bottom: 
+        overflow: hidden;
+    }
+    .Section-2 table {
+        display: block;
+    }
+    .Section-4 .row {
+        padding-left: 5%;
+        padding-bottom: 10px;
+    }
+    .footer ul{
+    padding: 100px 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
